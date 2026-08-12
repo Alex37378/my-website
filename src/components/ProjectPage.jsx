@@ -18,14 +18,6 @@ export default function ProjectPage (){
 
                 <Project
                     projectImg="/images/pattrick.png"
-                    projectName="Interactive Geography Game Platform"
-                    projectDesc="Built an interactive web-based platform that helps users learn countries, capitals, and maps through quizzes, timed challenges, and more. Focused on making learning engaging through game-like mechanics."
-                    techStack="Stack: React, REST APIs, GeoJSON."
-                    gitLink=""
-                />
-
-                <Project
-                    projectImg="/images/pattrick.png"
                     projectName="Data Lakehouse Analytics System"
                     projectDesc="Built a data lakehouse system that ingests, processes, and analyzes Wikipedia data to extract structured insights."
                     techStack="Stack: Python, SQL, Apache Spark, Databricks, Wikimedia Dumps."
@@ -47,6 +39,14 @@ export default function ProjectPage (){
                     projectDesc="Built a web application with a dashboard for visualizing student team productivity metrics to support professors in analyzing team performance."
                     techStack="Stack: React, Node.js, Express, MongoDB, Docker."
                     gitLink="https://github.com/h0nt3d/UTrack.git" 
+                />
+
+                <Project
+                    projectImg="/images/geo_mast.png"
+                    projectName="Interactive Geography Game Platform"
+                    projectDesc="Built an interactive web-based platform that helps users learn countries, capitals, and flags through timed and untimed challenges. Focused on making learning engaging through game-like mechanics."
+                    techStack="Stack: React, D3.js, GeoJSON."
+                    gitLink="https://github.com/Alex37378/geo-master.git"
                 />
 
             </div>
